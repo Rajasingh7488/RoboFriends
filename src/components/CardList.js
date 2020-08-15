@@ -2,9 +2,9 @@ import React from "react";
 import Card from "./Card";
 
 const CardList = ({ robots }) => {
-  if (true) {
-    throw new Error("this is for creating error to check error boundary");
-  }
+  // if (true) {
+  //   throw new Error("this is for creating error to check error boundary");
+  // }
   const CardArray = robots.map((user, i) => {
     return (
       <Card
